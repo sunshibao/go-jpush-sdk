@@ -1,10 +1,11 @@
 package jpush
 
 import (
+	"github.com/spf13/viper"
 	"testing"
 )
 
-var client = NewClient("165127c1a266361e06e5f4d5", "eda64c0f3e620a89acf9aa5e")
+var client = NewClient(viper.GetString("jpush.appKey"), viper.GetString("jpush.masterSecret"))
 var registrationId = "160a3797c8dbd203d22"
 
 func getMsg() *PushRequest {
