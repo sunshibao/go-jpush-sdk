@@ -1,6 +1,6 @@
 # JPush GO SDK
 极光推送golang sdk。
-官方的go sdk就新建了项目，没有文件，故开发本SDK。   
+由于官方 暂时没有go sdk，故开发本SDK。
 使用教程直接参照单元测试代码即可。
 
 ## 功能列表
@@ -16,5 +16,5 @@
 ## 如何使用
 参照单元测试即可
 
-## 注意
-**VIP类**接口和**Admin API v1**由于暂时没有权限，没有做实现。有需要的可以提交PR。
+## 官方文档 
+[Push API v3](https://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/)
